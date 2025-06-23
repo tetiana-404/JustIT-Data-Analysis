@@ -86,7 +86,7 @@ What employee data can be stored by default, and what data requires explicit con
 - Research and discussion encouraged
 - Result and answers are saved in workbook
 
-🖼️ Screenshot saved in `dp900_exam_result.pngv`
+🖼️ Screenshot saved in `screenshots/dp900_exam_result.png`
 
 ---
 
