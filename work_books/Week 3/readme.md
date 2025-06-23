@@ -65,7 +65,7 @@ This repository contains learning materials and tasks completed during Week 3 of
 6. **Conclusion**
 
 
-📄 See full write-up in `Day_4_Retail_Database_Design_Essay.docx`
+📄 See full write-up in `Day_4_Retail_Database_Design_Essay.pdf`
 
 ---
 
@@ -120,7 +120,7 @@ Apply SQL to query real-world demographic and geographic data from the `world_db
 | 19 | Display rows 31–40 (pagination)                       | `SELECT ci.Name AS City, co.Name AS Country, ci.Population FROM world.city ci JOIN world.country co ON ci.CountryCode = co.Code ORDER BY ci.Population LIMIT 10 OFFSET 30;` |
 
 
-📸 *Screenshots and results stored in `Day_4_Task_2_SQL Practical.doc`*
+📸 *Screenshots and results stored in `Day_4_Task_2_SQL Practical.pdf`*
 
 
 ---
