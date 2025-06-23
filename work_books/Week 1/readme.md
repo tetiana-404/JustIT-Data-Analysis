@@ -99,3 +99,45 @@ Explored visual representation of sales data using:
 - Line graphs
 
 ---
+
+## 🧠 Day 4: Presenting Data Insights & Predictive Analysis
+
+**Scenario:**  
+Customers are leaving after 12 months – a critical insight for business strategy.
+
+### Task: Preparing for Presentation to Stakeholders
+
+**Topics Covered:**
+- How to prepare for a data presentation
+- Tools used (PowerPoint, Canva, Google Slides, Tableau)
+- Prospecting and stakeholder research before delivery
+- Best practices for public speaking:
+  - Know your audience
+  - Use clear visuals
+  - Practice delivery
+  - Maintain eye contact and pacing
+
+**What to Present to the Board:**
+- Key finding: Customer churn after 12 months
+- Visualisation of data trends
+- Actionable recommendations (e.g. loyalty incentives, pricing strategies)
+
+**Articulating Change:**
+- Explain the “why” and “how”
+- Use data storytelling
+- Suggest measurable next steps
+
+**Helpful Resources for Public Speaking:**
+- [TED Talks YouTube Channel](https://www.youtube.com/user/TEDtalksDirector)
+- [Toastmasters International](https://www.toastmasters.org/)
+- [Garr Reynolds - Presentation Zen](https://www.presentationzen.com/)
+- [LinkedIn Learning – Presentation Skills](https://www.linkedin.com/learning)
+
+**Evaluation of Visualisation Tools:**
+| Tool       | Strengths                             | When to Use                          |
+|------------|----------------------------------------|--------------------------------------|
+| Excel      | Easy, accessible                       | Quick analysis or internal use       |
+| Tableau    | Interactive, professional dashboards   | Boardroom-level presentations        |
+| Power BI   | Integrated with Microsoft tools        | Corporate environments               |
+| Google Slides/Canva | Easy-to-use, design-focused | Visual storytelling, public sharing  |
+
