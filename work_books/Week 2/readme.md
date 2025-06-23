@@ -41,7 +41,6 @@ Use Spotify dataset to extract trends and insights for business planning.
 3. **Healthy Life Expectancy**: Mapped across countries for health-related marketing.
 4. **Corruption Perception ≥ 0.25**: Identified countries with significant corruption concerns.
 
-🖼️ *Screenshots are located in the `screenshots/` folder.*
 ---
 
 ### Task 2: Health Data Analysis
@@ -55,7 +54,6 @@ Identify health trends to support NHS or health organisations in decision-making
 - **Lung vs Liver Cancer Rates**
 - **Demographics and Longevity**
 
-🖼️ *Screenshots are located in the `screenshots/` folder.*
 ---
 
 ## 📈 Day 3: Power BI – Getting Started
