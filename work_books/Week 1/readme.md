@@ -55,6 +55,15 @@ Practice using Excel for everyday data analysis.
   - `=AVERAGE(H2:H100)` to calculate average commission in `P11`
 
 ### Task 2: Advanced Excel Tools
+- Apply filter and sorting to show the best students in each subject.
+- Calculate the average for all students and fill into Column E. (Use formula)
+- Using the =MAX fucntion, tell me what the students highest score was in column F.
+- Apply filter and sorting to show the best student in this classroom by average.
+- Apply filter and sorting to show the best student in this classroom by highest score.
+- Use conditional formatting to clearly identify the highest and lowest average scores
+
+### Task 3:
+- Using the skills developed, have some fun with the data set you have imported.
 
 **Objective:**  
 Understand advanced Excel features to gain deeper insights from data.
@@ -65,5 +74,28 @@ Understand advanced Excel features to gain deeper insights from data.
 - Macros
 - SWITCH statements
 - Data visualisation (charts, graphs)
+
+---
+## 🚲 Day 3: Practical Excel Labs
+
+### Task 1: Pivot Tables
+
+Worked on `Bike_Sales_Pivot_Lab.xlsx` to explore the power of pivot tables for summarising and analysing sales data.
+- In which markets does Germany have customers?
+- What country has sales in all markets?
+- What are the most profitable markets by country, age group, and gender?
+- Any other findings? 
+
+### Task 2: Product Performance Summary
+
+- Created a Pivot Table summarising sales by county and product.
+- Used the `SWITCH` function to categorise products based on volume.
+
+### Task 3: Data Visualisation
+
+Explored visual representation of sales data using:
+- Pie charts
+- Bar charts
+- Line graphs
 
 ---
