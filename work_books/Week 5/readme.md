@@ -65,11 +65,17 @@ What employee data can be stored by default, and what data requires explicit con
 ### Task 1: Lab 3 – Explore Relational Data in Azure  
 ✅ *Completed* (evidence in `Data_Technician_Workbook_Week_5.docx`)
 
+🖼️ Screenshot saved in `screenshots/lab3_relational_data.png`
+
 ### Task 2: Lab 4 – Explore Non-Relational Data in Azure  
 ✅ *Completed* (evidence included)
 
+🖼️ Screenshot saved in `screenshots/lab4_nonrelational_data.png`
+
 ### Task 3: Lab 5 – Explore Data Analytics in Azure  
 ✅ *Completed* (includes screenshots and insights)
+
+🖼️ Screenshot saved in `screenshots/lab5_analytics.png`
 
 ---
 
@@ -79,6 +85,8 @@ What employee data can be stored by default, and what data requires explicit con
 - Team-based, open-book practice test
 - Research and discussion encouraged
 - Result and answers are saved in workbook
+
+🖼️ Screenshot saved in `dp900_exam_result.pngv`
 
 ---
 
