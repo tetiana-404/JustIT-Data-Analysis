@@ -92,6 +92,31 @@ Apply SQL to query real-world demographic and geographic data from the `world_db
 18. Cities with high GDP per capita (if GDP data present)
 19. Display rows 31–40
 
+### 🔍 SQL Queries and Descriptions
+
+| #  | Task Description                                      | SQL Query |
+|----|-------------------------------------------------------|-----------|
+| 1  | Count cities in USA                                   | `SELECT COUNT(*) FROM world.city WHERE CountryCode = 'USA';` |
+| 2  | Country with highest life expectancy                  | `SELECT Name AS Country, LifeExpectancy FROM country ORDER BY LifeExpectancy DESC LIMIT 1;` |
+| 3  | Cities with "New" in name                             | `SELECT ci.Name AS City, co.Name AS Country, ci.Population FROM city ci JOIN country co ON ci.CountryCode = co.Code WHERE ci.Name LIKE '%New%' ORDER BY ci.Population DESC;` |
+| 4  | Display first 10 rows                                 | `SELECT ci.Name AS City, co.Name AS Country, ci.Population FROM city ci JOIN country co ON ci.CountryCode = co.Code ORDER BY ci.Population DESC LIMIT 10;` |
+| 5  | Cities with population > 2,000,000                    | `SELECT ci.Name AS City, co.Name AS Country, ci.Population FROM city ci JOIN country co ON ci.CountryCode = co.Code WHERE ci.Population > 2000000 ORDER BY ci.Population DESC;` |
+| 6  | Cities beginning with 'Be'                            | `SELECT ci.Name AS City, co.Name AS Country, ci.Population FROM city ci JOIN country co ON ci.CountryCode = co.Code WHERE ci.Name LIKE 'Be%' ORDER BY ci.Name ASC;` |
+| 7  | Cities with population between 500K–1M                | `SELECT ci.Name AS City, co.Name AS Country, ci.Population FROM city ci JOIN country co ON ci.CountryCode = co.Code WHERE ci.Population BETWEEN 500000 AND 1000000 ORDER BY ci.Population ASC;` |
+| 8  | Most populated city                                   | `SELECT ci.Name AS City, co.Name AS Country, ci.Population FROM city ci JOIN country co ON ci.CountryCode = co.Code ORDER BY ci.Population DESC LIMIT 1;` |
+| 9  | City name frequency                                   | `SELECT Name AS CityName, COUNT(*) AS OccurrenceCount FROM city GROUP BY Name HAVING COUNT(*) > 1 ORDER BY OccurrenceCount DESC;` |
+| 10 | All city name frequency (including duplicates = 1)    | `SELECT Name AS CityName, COUNT(*) AS OccurrenceCount FROM city GROUP BY Name ORDER BY OccurrenceCount DESC;` |
+| 11 | City with the lowest population                       | `SELECT Name AS City, CountryCode, Population FROM city ORDER BY Population ASC LIMIT 1;` |
+| 12 | Country with largest population                       | `SELECT Name AS Country, Population FROM country ORDER BY Population DESC LIMIT 1;` |
+| 13 | Capital of Spain                                      | `SELECT ci.Name AS CapitalCity, co.Name AS Country FROM country co JOIN city ci ON co.Capital = ci.ID WHERE co.Name = 'Spain';` |
+| 14 | Cities in Europe                                      | `SELECT ci.Name AS City, co.Name AS Country, ci.District, ci.Population FROM world.city ci JOIN world.country co ON ci.CountryCode = co.Code WHERE co.Continent = 'Europe' ORDER BY co.Name, ci.Name;` |
+| 15 | Average population by country                         | `SELECT Name, AVG(Population) AS AverageCountryPopulation FROM country GROUP BY Name;` |
+| 16 | Capital cities and their population                   | `SELECT country.Name AS Country, city.Name AS CapitalCity, city.Population AS CapitalPopulation FROM country JOIN city ON country.Capital = city.ID ORDER BY city.Population DESC;` |
+| 17 | Countries with lowest population density              | `SELECT Name AS Country, Population, SurfaceArea, ROUND(Population / SurfaceArea, 2) AS PopulationDensity FROM country ORDER BY PopulationDensity LIMIT 10;` |
+| 18 | Cities in countries with high GDP per capita          | `SELECT ci.Name AS City, co.Name AS Country, ci.Population AS CityPopulation, co.GNP AS CountryGNP, co.Population AS CountryPopulation, ROUND((co.GNP / co.Population) * ci.Population / ci.Population, 2) AS GDPPerCapita FROM world.city ci JOIN country co ON ci.CountryCode = co.Code WHERE co.GNP IS NOT NULL AND co.Population > 0 AND ((co.GNP / co.Population) * ci.Population / ci.Population) > (SELECT AVG(co.GNP / co.Population) FROM country co WHERE co.GNP IS NOT NULL AND co.Population > 0) ORDER BY GDPPerCapita DESC;` |
+| 19 | Display rows 31–40 (pagination)                       | `SELECT ci.Name AS City, co.Name AS Country, ci.Population FROM world.city ci JOIN world.country co ON ci.CountryCode = co.Code ORDER BY ci.Population LIMIT 10 OFFSET 30;` |
+
+
 📸 *Screenshots and results stored in `Day_4_Task_2_SQL Practical.doc`*
 
 
