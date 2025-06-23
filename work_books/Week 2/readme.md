@@ -41,6 +41,7 @@ Use Spotify dataset to extract trends and insights for business planning.
 3. **Healthy Life Expectancy**: Mapped across countries for health-related marketing.
 4. **Corruption Perception ≥ 0.25**: Identified countries with significant corruption concerns.
 
+🖼️ *Screenshots are located in the `screenshots/` folder.*
 ---
 
 ### Task 2: Health Data Analysis
