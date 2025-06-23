@@ -3,7 +3,7 @@
 This repository contains work completed during **Week 5** of the JustIT Data Technician training programme. This week's focus was on **Cloud Computing Fundamentals**, **Azure Data Services**, **Computer Misuse & Data Privacy Laws**, and applying knowledge in a business scenario.
 
 📄 **All research answers, screenshots, and lab completions are documented in:**  
-➡️ `Data_Technician_Workbook_Week_5.docx`
+➡️ `Week_5_Data_Technician_Workbook.pdf`
 
 ---
 
