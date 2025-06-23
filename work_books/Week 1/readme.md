@@ -1,146 +1,135 @@
-# Week 1 Training Tasks
+# 📚 Week 1 – Introduction to Data, Excel, and Presentation Skills
 
-This repository contains a collection of practical tasks completed as part of the JustIT training programme. The goal of these tasks is to develop foundational skills in working with data, including understanding data regulations, Excel data analysis, using advanced Excel tools, and presenting analytical findings to stakeholders.
+This repository contains the completed tasks for **Week 1** of the Data Technician training programme at JustIT. The aim of this week was to build foundational knowledge in:
 
-📄 **All answers, completed tasks, and screenshots are available in:**  
-➡️ `Week_1_Data_Technician_Workbook.pdf`
+- Data legislation and compliance
+- Microsoft Excel for basic and advanced data analysis
+- Pivot tables and visualisations
+- Presenting insights to stakeholders
 
----
-
-## 📌 Day 1: Introduction to Data and Legal Frameworks
-
-**Objective:**  
-Understand the importance of data analysis, identify key data concepts and terms, and become familiar with legal responsibilities when handling data.
-
-**Key Topics Covered:**
-- Why data analysis is important
-- Definitions of data terms and concepts
-- Overview of key data-related laws:
-  - **Data Protection Act**
-    - *What is it?* A UK law that governs how personal data is used.
-    - *Importance:* Ensures individuals' personal data is handled responsibly.
-    - *Example:* Encrypting personal data on company devices.
-    - *Impact:* Sets boundaries for collecting and storing customer data.
-    - *Breach consequence:* Legal penalties or reputational damage.
-  - **GDPR (General Data Protection Regulation)**
-    - *What is it?* A regulation in EU law on data protection and privacy.
-    - *Importance:* Gives individuals control over their personal data.
-    - *Example:* Providing users the option to delete their data.
-    - *Impact:* Requires explicit consent before collecting personal data.
-    - *Breach consequence:* Fines up to €20 million or 4% of global turnover.
-  - **Freedom of Information Act**
-    - *What is it?* Allows access to information held by public authorities.
-    - *Importance:* Promotes transparency and accountability.
-    - *Example:* Responding to citizen data requests within 20 days.
-    - *Impact:* Applies to public organisations handling public data.
-    - *Breach consequence:* Legal scrutiny or fines.
-  - **Computer Misuse Act**
-    - *What is it?* Prevents unauthorised access to computer systems.
-    - *Importance:* Protects against cybercrime.
-    - *Example:* Not accessing systems without permission.
-    - *Impact:* Ensures ethical IT and data use.
-    - *Breach consequence:* Criminal charges or imprisonment.
+✅ **All answers and screenshots are available in:**  
+**`Week_1_Data_Technician_Workbook.pdf`**
 
 ---
 
-## 📊 Day 2: Microsoft Excel for Data Analysis
-
-### Task 1: Basic Excel Functions
+## 📌 Day 1 – Understanding Data Laws and Regulations
 
 **Objective:**  
-Practice using Excel for everyday data analysis.
+Gain awareness of the legal and ethical responsibilities when working with customer data.
 
-**Tasks:**
-- Created a table from columns A–H in `retail_sales_dataset.xlsx`
-- Applied filters (e.g. sorted 'Age' largest to smallest)
-- Used formulas:
-  - `=SUM(H2:H100)` to get total commission in cell `P10`
-  - `=AVERAGE(H2:H100)` to calculate average commission in `P11`
+**Key Regulations Studied:**
 
-### Task 2: Advanced Excel Tools
-- Apply filter and sorting to show the best students in each subject.
-- Calculate the average for all students and fill into Column E. (Use formula)
-- Using the =MAX fucntion, tell me what the students highest score was in column F.
-- Apply filter and sorting to show the best student in this classroom by average.
-- Apply filter and sorting to show the best student in this classroom by highest score.
-- Use conditional formatting to clearly identify the highest and lowest average scores
+- **Data Protection Act**
+- **General Data Protection Regulation (GDPR)**
+- **Freedom of Information Act**
+- **Computer Misuse Act**
 
-### Task 3:
-- Using the skills developed, have some fun with the data set you have imported.
+For each law, the following aspects were explored:
 
-**Objective:**  
-Understand advanced Excel features to gain deeper insights from data.
-
-**Skills Practiced:**
-- Pivot tables
-- Slicers
-- Macros
-- SWITCH statements
-- Data visualisation (charts, graphs)
+- What is it?
+- Why is it important?
+- Real-world application
+- Impact on working with data
+- Consequences of breaching it
 
 ---
-## 🚲 Day 3: Practical Excel Labs
 
-### Task 1: Pivot Tables
+## 📊 Day 2 – Excel for Data Analysis
 
-Worked on `Bike_Sales_Pivot_Lab.xlsx` to explore the power of pivot tables for summarising and analysing sales data.
-- In which markets does Germany have customers?
-- What country has sales in all markets?
-- What are the most profitable markets by country, age group, and gender?
-- Any other findings? 
+### 🔹 Task 1: Basic Excel Operations
 
-### Task 2: Product Performance Summary
+- Inserted data (Columns A–H) into a formal Excel table.
+- Applied filters to sort ‘Age’ from largest to smallest.
+- Used Excel functions:
+  - `=SUM(...)` for total commission (Cell `P10`)
+  - `=AVERAGE(...)` for average commission (Cell `P11`)
 
-- Created a Pivot Table summarising sales by county and product.
-- Used the `SWITCH` function to categorise products based on volume.
+### 🔹 Task 2: Student Performance Analysis
 
-### Task 3: Data Visualisation
+- Applied filters and sorting for best students in each subject.
+- Calculated average scores using formulas.
+- Used `=MAX(...)` to find highest score in Column F.
+- Identified top-performing students by average and high scores.
+- Applied conditional formatting for highlighting score ranges.
 
-Explored visual representation of sales data using:
+### 🔹 Task 3: Independent Exploration
+
+- Experimented with the dataset further to practice filtering, formula use, and formatting.
+
+---
+
+## 🚲 Day 3 – Pivot Tables, SWITCH, and Visualisations
+
+### 🔹 Task 1: Pivot Table Analysis – Bike Sales
+
+**Dataset:** `Day_3_Task_1_Bike_Sales_Pivot_Lab.xlsx`
+
+Explored:
+- Germany’s customer markets
+- Countries with sales in all markets
+- Most profitable markets by country, age group, gender
+- Other key findings through pivot tables
+
+### 🔹 Task 2: Sales Performance Summary (Counties & Products)
+
+- Created pivot table summarising data by county and product
+- Used `SWITCH` function to classify products based on sales:
+  - `High` for > 600  
+  - `Medium` for 300–600  
+  - `Low` for < 300
+
+### 🔹 Task 3: Visualising Data
+
+**Dataset:** `Day_3_Task_3_Bike_Sales_Visualisations_Lab.xlsx`
+
+Created:
 - Pie charts
 - Bar charts
 - Line graphs
+to visualise key business metrics.
 
 ---
 
-## 🧠 Day 4: Presenting Data Insights & Predictive Analysis
+## 🧠 Day 4 – Stakeholder Presentation & Data Storytelling
 
 **Scenario:**  
-Customers are leaving after 12 months – a critical insight for business strategy.
+Customers are leaving at the 12-month mark, right after receiving renewal pricing.
 
-### Task: Preparing for Presentation to Stakeholders
+### 🔹 Task: Preparing a Presentation
 
-**Topics Covered:**
-- How to prepare for a data presentation
-- Tools used (PowerPoint, Canva, Google Slides, Tableau)
-- Prospecting and stakeholder research before delivery
-- Best practices for public speaking:
-  - Know your audience
-  - Use clear visuals
-  - Practice delivery
-  - Maintain eye contact and pacing
+**Covered:**
+- How to prepare for presenting findings
+- Tools used for delivery (PowerPoint, Google Slides, Tableau)
+- Importance of *prospecting* (understanding your audience)
+- Best practices for public speaking to senior leaders:
+  - Structure clearly
+  - Use clean visuals
+  - Practice confidently
+  - Engage the audience
 
-**What to Present to the Board:**
-- Key finding: Customer churn after 12 months
-- Visualisation of data trends
-- Actionable recommendations (e.g. loyalty incentives, pricing strategies)
+**Included in Presentation:**
+- Insight on customer churn
+- Visual trends and data
+- Recommended changes (e.g., pricing strategies, retention offers)
 
-**Articulating Change:**
-- Explain the “why” and “how”
-- Use data storytelling
-- Suggest measurable next steps
-
-**Helpful Resources for Public Speaking:**
-- [TED Talks YouTube Channel](https://www.youtube.com/user/TEDtalksDirector)
+**Helpful Resources:**
+- [TED Talks on Public Speaking](https://www.youtube.com/user/TEDtalksDirector)
 - [Toastmasters International](https://www.toastmasters.org/)
-- [Garr Reynolds - Presentation Zen](https://www.presentationzen.com/)
-- [LinkedIn Learning – Presentation Skills](https://www.linkedin.com/learning)
+- [Presentation Zen – Garr Reynolds](https://www.presentationzen.com/)
 
-**Evaluation of Visualisation Tools:**
-| Tool       | Strengths                             | When to Use                          |
-|------------|----------------------------------------|--------------------------------------|
-| Excel      | Easy, accessible                       | Quick analysis or internal use       |
-| Tableau    | Interactive, professional dashboards   | Boardroom-level presentations        |
-| Power BI   | Integrated with Microsoft tools        | Corporate environments               |
-| Google Slides/Canva | Easy-to-use, design-focused | Visual storytelling, public sharing  |
+### 🔹 Visualisation Tools Evaluated:
 
+| Tool             | Best For                                  | When to Use                          |
+|------------------|--------------------------------------------|--------------------------------------|
+| **Excel**        | Quick tables & graphs                      | Internal or quick analysis           |
+| **Power BI**     | Dashboards, integration with Microsoft     | Enterprise environments              |
+| **Tableau**      | Interactive reports, storytelling          | Client-facing or strategic meetings  |
+| **Canva / Google Slides** | Presentation design, simple visuals | External sharing or pitching         |
+
+**Preferred Tool for Board Presentation:**  
+**Tableau or Power BI**, due to their visual impact and interactivity.
+
+---
+
+📎 *All work, including screenshots and completed exercises, can be found in*  
+📁 **`Week_1_Data_Technician_Workbook.pdf`**
