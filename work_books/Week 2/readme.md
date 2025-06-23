@@ -2,6 +2,9 @@
 
 This repository contains all tasks completed during Week 2 of the JustIT data training programme. This week's focus was on data visualisation using Tableau and Power BI, conducting data analysis using health and music datasets, and presenting insights through dashboards and visual reports.
 
+✅ **All answers and screenshots are available in:**  
+**`Week_2_Data_Technician_Workbook.pdf`**
+
 ---
 
 ## 📊 Day 1: Tableau – Introduction and Dashboards
