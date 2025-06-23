@@ -9,14 +9,15 @@ This repository contains learning materials and tasks completed during Week 3 of
 ### Task 1: Database Keys & Relationships
 
 **Key Concepts:**
-- **Primary Key**
-- **Secondary Key**
-- **Foreign Key**
+- **Primary Key**: Uniquely identifies each record.
+- **Secondary Key**: Alternate searchable field.
+- **Foreign Key**: References a primary key in another table.
+
 
 **Real-World Relationship Examples:**
-- One-to-One 
-- One-to-Many 
-- Many-to-Many 
+- One-to-One → Person and Passport
+- One-to-Many → Customer and Orders
+- Many-to-Many → Students and Courses
 
 ---
 
@@ -24,17 +25,27 @@ This repository contains learning materials and tasks completed during Week 3 of
 
 - The difference between a relational and nonrelational database
 
+| Feature             | Relational                         | Non-Relational                   |
+|---------------------|------------------------------------|----------------------------------|
+| Schema              | Fixed                              | Flexible or schema-less          |
+| Data Structure      | Rows and columns                   | JSON, key-value, graph, documents|
+| Best For            | Structured data                    | Unstructured/semi-structured data|
+| Examples            | MySQL, PostgreSQL                  | MongoDB, Firebase, Cassandra     |
+
 ---
 
 ## 🔗 Day 3: SQL JOIN Types
 
 
-- INNER JOIN   
-- LEFT JOIN  
-- RIGHT JOIN  
-- FULL JOIN  
-- SELF JOIN  
-- CROSS JOIN  
+| JOIN Type     | Description                                  | Use Case Example                          |
+|---------------|-----------------------------------------------|-------------------------------------------|
+| INNER JOIN    | Returns matching rows from both tables        | Customer Orders                           |
+| LEFT JOIN     | All rows from left + matching from right      | All products including unsold             |
+| RIGHT JOIN    | All rows from right + matching from left      | All employees including unassigned ones   |
+| FULL JOIN     | All matching and unmatched rows from both     | Mailing list combination                  |
+| SELF JOIN     | A table joined with itself                    | Employee–Manager structure                |
+| CROSS JOIN    | All possible combinations (Cartesian Product) | Product promotions by region              |
+
 
 ---
 
@@ -62,7 +73,6 @@ Apply SQL to query real-world demographic and geographic data from the `world_db
 
 **Setup Instructions:**
 - Download `world_db(1)` dataset
-- Create database following setup guide provided
 - Write the queries below and include both SQL syntax and output
 
 **SQL Tasks:**
@@ -86,7 +96,8 @@ Apply SQL to query real-world demographic and geographic data from the `world_db
 18. Cities with high GDP per capita (if GDP data present)
 19. Display rows 31–40
 
-📸 *Screenshots and results stored in `/screenshots/sql_practice_day4_task2/`*
+📸 *Screenshots and results stored in `Week_3_Data_Technician_Workbook.pdf`*
+
 
 ---
 
