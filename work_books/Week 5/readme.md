@@ -120,7 +120,7 @@ The report includes:
 - **Visualisation:** Power BI Dashboards
 - **Scalability:** Azure scales automatically as data and users grow
 
-📄 **The full written proposal is part of the main workbook document.**
+📄 **The full written proposal is part of the main workbook document and in `Paws & Whiskers - Data-Driven Transformation.pdf`.**
 
 ---
 
