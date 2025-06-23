@@ -40,15 +40,16 @@ This repository contains learning materials and tasks completed during Week 3 of
 
 ## 🏪 Day 4: Task 1 – Retail Database Design
 
-**Scenario:** A corner shop wants a system to manage products, customers, sales, and loyalty cards.
+**Scenario:** A small retail store wants a system to manage products, customers, sales, and loyalty cards.
 
 **Process:**
-1. **Entities Identified**: `Customers`, `Sales`, `Products`, `LoyaltyCards`, `Inventory`
-2. **Relationships Defined**:
-   - One-to-Many (Customer–Sales)
-   - One-to-One (Customer–LoyaltyCard)
-3. **Tables Normalised** to reduce redundancy.
-4. **Future-Proofing**: Ready for expansion and reporting needs.
+1. **Understanding the Business Requirements**
+2. **Designing the Database Schema**
+3. **Implementing the Database** 
+4. **Populating the Database**
+5. **Maintaining the Database**
+6. **Conclusion**
+
 
 📄 See full write-up in `Day_4_Retail_Database_Design_Essay.docx`
 
@@ -62,31 +63,28 @@ Apply SQL to query real-world demographic and geographic data from the `world_db
 **Setup Instructions:**
 - Download `world_db(1)` dataset
 - Create database following setup guide provided
-- Run the queries below and include both SQL syntax and output
+- Write the queries below and include both SQL syntax and output
 
 **SQL Tasks:**
-
-| #  | Task Description                                                   | SQL Function Example                      |
-|----|--------------------------------------------------------------------|-------------------------------------------|
-| 1  | Count cities in USA                                                | `SELECT COUNT(*) FROM city WHERE CountryCode = 'USA';` |
-| 2  | Country with highest life expectancy                               | `SELECT Name FROM country ORDER BY LifeExpectancy DESC LIMIT 1;` |
-| 3  | Cities with "New" in name                                          | `SELECT * FROM city WHERE Name LIKE 'New%';` |
-| 4  | Display first 10 rows                                              | `SELECT * FROM city LIMIT 10;`            |
-| 5  | Cities with population > 2,000,000                                 | `SELECT * FROM city WHERE Population > 2000000;` |
-| 6  | Cities beginning with 'Be'                                         | `SELECT * FROM city WHERE Name LIKE 'Be%';` |
-| 7  | Population between 500,000–1,000,000                               | `SELECT * FROM city WHERE Population BETWEEN 500000 AND 1000000;` |
-| 8  | Cities sorted by name (ascending)                                  | `SELECT * FROM city ORDER BY Name ASC;`   |
-| 9  | Most populated city                                                | `SELECT * FROM city ORDER BY Population DESC LIMIT 1;` |
-| 10 | Count of cities with same name (frequency)                         | `SELECT Name, COUNT(*) FROM city GROUP BY Name HAVING COUNT(*) > 1;` |
-| 11 | City with lowest population                                        | `SELECT * FROM city ORDER BY Population ASC LIMIT 1;` |
-| 12 | Country with largest population                                    | `SELECT Name FROM country ORDER BY Population DESC LIMIT 1;` |
-| 13 | Capital of Spain                                                   | `SELECT Name FROM city WHERE ID = (SELECT Capital FROM country WHERE Name = 'Spain');` |
-| 14 | Cities in Europe                                                   | `SELECT Name FROM city JOIN country ON city.CountryCode = country.Code WHERE continent = 'Europe';` |
-| 15 | Average population by country                                      | `SELECT CountryCode, AVG(Population) FROM city GROUP BY CountryCode;` |
-| 16 | Compare capital cities' population                                 | `SELECT city.Name, city.Population FROM city JOIN country ON city.ID = country.Capital;` |
-| 17 | Countries with low population density                              | `SELECT Name FROM country WHERE Population / SurfaceArea < 50;` |
-| 18 | Cities with high GDP per capita (if GDP data present)              | `-- hypothetical query, based on schema`  |
-| 19 | Display rows 31–40                                                 | `SELECT * FROM city LIMIT 10 OFFSET 30;`  |
+1. Count cities in USA 
+2. Country with highest life expectancy
+3. Cities with "New" in name
+4. Display first 10 rows
+5. Cities with population > 2,000,000
+6. Cities beginning with 'Be'
+7. Population between 500,000–1,000,000
+8. Cities sorted by name (ascending)
+9. Most populated city
+10. Count of cities with same name (frequency)
+11. City with lowest population
+12. Country with largest population
+13. Capital of Spain
+14. Cities in Europe
+15. Average population by country
+16. Compare capital cities' population
+17. Countries with low population density
+18. Cities with high GDP per capita (if GDP data present)
+19. Display rows 31–40
 
 📸 *Screenshots and results stored in `/screenshots/sql_practice_day4_task2/`*
 
