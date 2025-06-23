@@ -2,6 +2,9 @@
 
 This repository contains learning materials and tasks completed during Week 3 of the JustIT training programme. The main focus of this week was understanding database fundamentals, SQL joins, and designing and querying a real-world relational database.
 
+✅ **All answers and screenshots are available in:**  
+**`Week_3_Data_Technician_Workbook.pdf`**
+
 ---
 
 ## 🧩 Day 1: Database Fundamentals
