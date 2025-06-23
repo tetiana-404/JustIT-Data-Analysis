@@ -78,6 +78,8 @@ Clean and transform imported data before loading into Power BI.
 - Splitting columns
 - Renaming fields
 
+🖼️ Screenshot saved in `screenshots/lab2_report_design.png`
+
 ---
 
 ## 📊 Day 4: Power BI – Reports & Dashboards
