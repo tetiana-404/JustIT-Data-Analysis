@@ -2,6 +2,9 @@
 
 This repository contains a collection of practical tasks completed as part of the JustIT training programme. The goal of these tasks is to develop foundational skills in working with data, including understanding data regulations, Excel data analysis, using advanced Excel tools, and presenting analytical findings to stakeholders.
 
+📄 **All answers, completed tasks, and screenshots are available in:**  
+➡️ `Week_1_Data_Technician_Workbook.pdf`
+
 ---
 
 ## 📌 Day 1: Introduction to Data and Legal Frameworks
