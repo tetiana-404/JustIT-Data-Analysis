@@ -69,6 +69,9 @@ Identify health trends to support NHS or health organisations in decision-making
 **Objective:**  
 Learn how to import and connect data into Power BI.
 
+
+🖼️ Screenshot saved in `screenshots/lab1_get_data.png`
+
 ---
 
 ### Task 2: Lab 2 – Load Transformed Data
@@ -80,8 +83,6 @@ Clean and transform imported data before loading into Power BI.
 - Removing duplicates
 - Splitting columns
 - Renaming fields
-
-🖼️ Screenshot saved in `screenshots/lab2_report_design.png`
 
 ---
 
