@@ -92,7 +92,7 @@ Apply SQL to query real-world demographic and geographic data from the `world_db
 18. Cities with high GDP per capita (if GDP data present)
 19. Display rows 31–40
 
-📸 *Screenshots and results stored in `Week_3_Data_Technician_Workbook.pdf`*
+📸 *Screenshots and results stored in `Day_4_Task_2_SQL Practical.doc`*
 
 
 ---
