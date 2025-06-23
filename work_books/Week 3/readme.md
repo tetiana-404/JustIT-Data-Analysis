@@ -71,10 +71,6 @@ This repository contains learning materials and tasks completed during Week 3 of
 **Objective:**  
 Apply SQL to query real-world demographic and geographic data from the `world_db` database.
 
-**Setup Instructions:**
-- Download `world_db(1)` dataset
-- Write the queries below and include both SQL syntax and output
-
 **SQL Tasks:**
 1. Count cities in USA 
 2. Country with highest life expectancy
