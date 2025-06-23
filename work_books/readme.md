@@ -39,3 +39,31 @@ Understand the importance of data analysis, identify key data concepts and terms
     - *Breach consequence:* Criminal charges or imprisonment.
 
 ---
+
+## 📊 Day 2: Microsoft Excel for Data Analysis
+
+### Task 1: Basic Excel Functions
+
+**Objective:**  
+Practice using Excel for everyday data analysis.
+
+**Tasks:**
+- Created a table from columns A–H in `retail_sales_dataset.xlsx`
+- Applied filters (e.g. sorted 'Age' largest to smallest)
+- Used formulas:
+  - `=SUM(H2:H100)` to get total commission in cell `P10`
+  - `=AVERAGE(H2:H100)` to calculate average commission in `P11`
+
+### Task 2: Advanced Excel Tools
+
+**Objective:**  
+Understand advanced Excel features to gain deeper insights from data.
+
+**Skills Practiced:**
+- Pivot tables
+- Slicers
+- Macros
+- SWITCH statements
+- Data visualisation (charts, graphs)
+
+---
