@@ -12,6 +12,7 @@ My immediate goal is to become established in a Junior Data Analyst role and wor
 
 * 🌍  I'm based in United Kingdom
 * ✉️  You can contact me at [tsamolyuk@gmail.com](mailto:tsamolyuk@gmail.com)
+* 🌍  Portfolio: [https://tetiana-404.github.io]
 
 ### Skills
 
@@ -59,6 +60,8 @@ My immediate goal is to become established in a Junior Data Analyst role and wor
 - Data Analysis via Python Programming – Pandas, Matplotlib & Seaborn
 
 **Please see my works in the folder 'work_books`**
+
+
 ---
 
 ### 06/1998 - 06/2003  
