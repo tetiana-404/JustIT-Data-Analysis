@@ -60,24 +60,6 @@ My immediate goal is to become established in a Junior Data Analyst role and wor
 
 ---
 
-### 09/2024 - 04/2024  
-**EPAM, Ukraine**  
-*Data Analytics and Data Engineering Basics*
-
-**Core Modules:**
-
-- Software Development Methodologies
-- Database Management System
-- Data Warehouse and Business Intelligence
-- Python (Pandas)
-- Cloud Computing (AWS)
-- Data Analytics & Visualization
-
-**Languages/Technologies:**  
-MS SQL Server, SQL, ETL, Python (Pandas), AWS, Power BI
-
----
-
 ### 06/1998 - 06/2003  
 **Ivan Franko National University of Lviv, Ukraine**  
 *Master’s Degree in Applied Mathematics and Informatics*
