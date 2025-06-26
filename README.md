@@ -58,6 +58,7 @@ My immediate goal is to become established in a Junior Data Analyst role and wor
 - Azure Fundamentals - Fundamentals of Data Analytics
 - Data Analysis via Python Programming – Pandas, Matplotlib & Seaborn
 
+**Please see my works in the folder 'work_books`**
 ---
 
 ### 06/1998 - 06/2003  
@@ -122,8 +123,4 @@ These experiences not only bring me joy but also strengthen my interpersonal and
 - Fast learner, analytical mindset, passionate about data-driven solutions
 
 
-### Socials
 
-<p align="left"> <a href="https://www.github.com/tetiana-404/JustIT-Data-Analysis/tree/main" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="Github" title="Github" /> </picture> </a></p>
-
-Please see my works in the folder 'work_books`
