@@ -25,4 +25,4 @@ My immediate goal is to become established in a Junior Data Analyst role and wor
 
 <p align="left"> <a href="https://www.github.com/tetiana-404/JustIT-Data-Analysis/tree/main" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="Github" title="Github" /> </picture> </a></p>
 
-
+Please see my works in the folder 'work_books`
